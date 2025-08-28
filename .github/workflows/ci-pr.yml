@@ -1,0 +1,5 @@
+name: CICD - PR
+on: [pull_request]
+jobs:
+  ReUSe:
+    uses: prashumps/roboshop-github-actions/.github/workflows/ci-pr.yml@main

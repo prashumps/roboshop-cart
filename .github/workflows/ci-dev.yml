@@ -1,0 +1,8 @@
+name: CICD - DEV
+on:
+  push:
+    branches:
+      - 'ROBO-**'
+jobs:
+  ReUSe:
+    uses: prashumps/roboshop-github-actions/.github/workflows/ci-dev.yml@main
