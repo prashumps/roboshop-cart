@@ -6,3 +6,5 @@ on:
 jobs:
   ReUSe:
     uses: prashumps/roboshop-github-actions/.github/workflows/ci-dev.yml@main
+    with:
+      appType: 'nodejs'
